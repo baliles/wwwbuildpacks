@@ -1,8 +1,8 @@
-<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="buildpacks.com" resolutions="1x" timestamp="1472160367106">
+<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="dotnetbuildpacks.com" resolutions="1x" timestamp="1472161324285">
   <folder name="css">
-    <file name="site_global.css" crc="3916556066"/>
-    <file name="index.css" crc="411945599" ref="index"/>
-    <file name="iefonts_index.css" crc="4257602551" ref="index"/>
+    <file name="site_global.css" crc="4271844163"/>
+    <file name="index.css" crc="314190422" ref="index"/>
+    <file name="iefonts_index.css" crc="534171756" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="169078940" ref="phone>index:tablet>index:index"/>
@@ -44,12 +44,12 @@
     <file name="u1250-17-r.png" crc="432450229" ref="phone>index"/>
     <file name="u1250-17-m.png" crc="432450229" ref="phone>index"/>
     <file name="u1250-17-fs.png" crc="4219144062" ref="phone>index"/>
-    <file name="olo-ieu810-fr.png" crc="349406468" ref="tablet>index"/>
+    <file name="olo-ieu810-fr.png" crc="349406468" ref="tablet>index:index"/>
     <file name="olo.png" crc="4151752701" ref="tablet>index:index"/>
     <file name="featured-image-1.png" crc="107677299" ref="tablet>index:index"/>
     <file name="arrow427.png" crc="93892586" ref="tablet>index"/>
     <file name="arrow413.png" crc="4112990567" ref="tablet>index"/>
-    <file name="olo-u896-fr.png" crc="252362670" ref="tablet>index"/>
+    <file name="olo-u896-fr.png" crc="252362670" ref="tablet>index:index"/>
     <file name="ik-6.png" crc="4172881509" ref="tablet>index:index"/>
     <file name="ik-6-1.png" crc="4069569074" ref="tablet>index:index"/>
     <file name="ik-3.png" crc="4221927500" ref="tablet>index:index"/>
@@ -84,23 +84,22 @@
     <file name="autumn-atlanta-skyline-u285-fr.jpg" crc="293423443" ref="index"/>
     <file name="autumn-atlanta-skyline-u711-fr.jpg" crc="3850672610" ref="index"/>
     <file name="postgres.png" crc="360237392" ref="phone>index:tablet>index:index"/>
-    <file name="olo-ieu134-fr.png" crc="349406468" ref="index"/>
-    <file name="olo-u304-fr.png" crc="252362670" ref="index"/>
     <file name="sampleapp-sm.png" crc="4262507327" ref="index"/>
+    <file name="pasted image 147x32.png" crc="3986736996" seo="true" ref="index"/>
   </folder>
   <folder name="tablet">
     <folder name="css">
       <file name="index.css" crc="3783188552" ref="tablet>index"/>
       <file name="iefonts_index.css" crc="4187308992" ref="tablet>index"/>
     </folder>
-    <file name="index.html" crc="434643453" seo="true" mt="1471886804559" redirect="true"/>
+    <file name="index.html" crc="3873941427" seo="true" mt="1472160822151" redirect="true"/>
   </folder>
   <folder name="phone">
     <folder name="css">
       <file name="index.css" crc="3781037832" ref="phone>index"/>
       <file name="iefonts_index.css" crc="3832473841" ref="phone>index"/>
     </folder>
-    <file name="index.html" crc="4164830205" seo="true" mt="1472159901642" redirect="true"/>
+    <file name="index.html" crc="530838521" seo="true" mt="1472160822161" redirect="true"/>
   </folder>
-  <file name="index.html" crc="191285310" seo="true" mt="1472160363775" redirect="true"/>
+  <file name="index.html" crc="4147740087" seo="true" mt="1472161265380" redirect="true"/>
 </manifest>

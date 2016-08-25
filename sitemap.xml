@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://buildpacks.com/index.html</loc>
+    <loc>http://dotnetbuildpacks.com/index.html</loc>
     <lastmod>2016-08-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://buildpacks.com/phone/index.html"/>
-    <xhtml:link rel="alternate" media="only screen and (max-width: 960px)" href="http://buildpacks.com/tablet/index.html"/>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://dotnetbuildpacks.com/phone/index.html"/>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 960px)" href="http://dotnetbuildpacks.com/tablet/index.html"/>
+  </url>
+  <url>
+    <loc>http://dotnetbuildpacks.com/images/pasted%20image%20147x32.png</loc>
+    <lastmod>2016-08-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
 </urlset>
