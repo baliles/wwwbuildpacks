@@ -1,7 +1,7 @@
-<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="dotnetbuildpacks.com" resolutions="1x" timestamp="1472239560766">
+<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="dotnetbuildpacks.com" resolutions="1x" timestamp="1472239901772">
   <folder name="css">
     <file name="site_global.css" crc="3877927608"/>
-    <file name="index.css" crc="3784183060" ref="index"/>
+    <file name="index.css" crc="4604470" ref="index"/>
     <file name="iefonts_index.css" crc="28061952" ref="index"/>
   </folder>
   <folder name="scripts">
@@ -16,9 +16,9 @@
     <file name="musewpslideshow.js" crc="4265225696" ref="phone>index:tablet>index:index"/>
     <file name="jquery.museoverlay.js" crc="4075157096" ref="phone>index:tablet>index:index"/>
     <file name="touchswipe.js" crc="474750357" ref="phone>index:tablet>index:index"/>
-    <file name="form_check.php" crc="121412709" ref="phone>index"/>
-    <file name="form_throttle.php" crc="4268640971" ref="phone>index"/>
-    <file name="form_process.php" crc="444429785" ref="phone>index"/>
+    <file name="form_check.php" crc="121412709" ref="phone>index:index"/>
+    <file name="form_throttle.php" crc="4268640971" ref="phone>index:index"/>
+    <file name="form_process.php" crc="444429785" ref="phone>index:index"/>
     <file name="form-u1240.php" crc="3834375646" ref="phone>index"/>
     <file name="jquery.scrolleffects.js" crc="511146689" ref="phone>index:tablet>index:index"/>
     <file name="require.js" crc="4108833657" ref="phone>index:tablet>index:index"/>
@@ -44,11 +44,11 @@
     <file name="u1250-17-r.png" crc="432450229" ref="phone>index"/>
     <file name="u1250-17-m.png" crc="432450229" ref="phone>index"/>
     <file name="u1250-17-fs.png" crc="4219144062" ref="phone>index"/>
-    <file name="olo-ieu810-fr.png" crc="349406468" ref="tablet>index:index"/>
+    <file name="olo-ieu810-fr.png" crc="349406468" ref="tablet>index"/>
     <file name="olo.png" crc="4151752701" ref="tablet>index:index"/>
     <file name="arrow427.png" crc="93892586" ref="tablet>index"/>
     <file name="arrow413.png" crc="4112990567" ref="tablet>index"/>
-    <file name="olo-u896-fr.png" crc="252362670" ref="tablet>index:index"/>
+    <file name="olo-u896-fr.png" crc="252362670" ref="tablet>index"/>
     <file name="ik-6.png" crc="4172881509" ref="tablet>index:index"/>
     <file name="ik-6-1.png" crc="4069569074" ref="tablet>index:index"/>
     <file name="ik-3.png" crc="4221927500" ref="tablet>index:index"/>
@@ -75,7 +75,7 @@
     <file name="sampleapp.svg" crc="451001867" ref="phone>index"/>
     <file name="stlogo.jpg" crc="3861804308" ref="phone>index:index"/>
     <file name="button.svg" crc="4075981164" seo="true" ref="phone>index:index"/>
-    <file name="button_poster_.png" crc="4010220207" ref="phone>index"/>
+    <file name="button_poster_.png" crc="4010220207" ref="phone>index:index"/>
     <file name="sampleapp-m.png" crc="367525279" seo="true" ref="index"/>
     <file name="waves.jpg" crc="3841966914" ref="phone>index:tablet>index:index"/>
     <file name="sampleapp_poster_u2682.png" crc="4133943017" ref="phone>index"/>
@@ -93,6 +93,9 @@
     <file name="laptopscreen4.png" crc="152284312" ref="index"/>
     <file name="laptopscreen5.png" crc="4000807089" ref="index"/>
     <file name="laptopscreen6.png" crc="4025446326" ref="index"/>
+    <file name="olo-ieu134-fr.png" crc="349406468" ref="index"/>
+    <file name="sampleapp.jpg" crc="244017200" ref="index"/>
+    <file name="olo-u304-fr.png" crc="252362670" ref="index"/>
   </folder>
   <folder name="tablet">
     <folder name="css">
@@ -108,5 +111,5 @@
     </folder>
     <file name="index.html" crc="3947085507" seo="true" mt="1472239467861" redirect="true"/>
   </folder>
-  <file name="index.html" crc="519064866" seo="true" mt="1472239540114" redirect="true"/>
+  <file name="index.html" crc="311733560" seo="true" mt="1472239887479" redirect="true"/>
 </manifest>
