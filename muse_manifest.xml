@@ -1,7 +1,7 @@
-<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="dotnetbuildpacks.com" resolutions="1x" timestamp="1472239901772">
+<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="dotnetbuildpacks.com" resolutions="1x" timestamp="1472240009213">
   <folder name="css">
     <file name="site_global.css" crc="3877927608"/>
-    <file name="index.css" crc="4604470" ref="index"/>
+    <file name="index.css" crc="3896060537" ref="index"/>
     <file name="iefonts_index.css" crc="28061952" ref="index"/>
   </folder>
   <folder name="scripts">
@@ -94,7 +94,6 @@
     <file name="laptopscreen5.png" crc="4000807089" ref="index"/>
     <file name="laptopscreen6.png" crc="4025446326" ref="index"/>
     <file name="olo-ieu134-fr.png" crc="349406468" ref="index"/>
-    <file name="sampleapp.jpg" crc="244017200" ref="index"/>
     <file name="olo-u304-fr.png" crc="252362670" ref="index"/>
   </folder>
   <folder name="tablet">
@@ -111,5 +110,5 @@
     </folder>
     <file name="index.html" crc="3947085507" seo="true" mt="1472239467861" redirect="true"/>
   </folder>
-  <file name="index.html" crc="311733560" seo="true" mt="1472239887479" redirect="true"/>
+  <file name="index.html" crc="50482259" seo="true" mt="1472239998180" redirect="true"/>
 </manifest>
