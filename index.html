@@ -836,15 +836,15 @@ document.body.appendChild(_$elz.b.e); }
 					$('.message-box').hide();
 
 					slackChatOptions = {
-						apiToken: $('xoxb-73667521857-cNzIZ9rYbFrK6LxqupAxTcqn').val()
-						,channelId: $('C2594QESG').val()
+						apiToken: $('#apiToken').val()
+						,channelId: $('#channelId').val()
 						,user: $('#user').val()
 						,userLink: 'https://softtrends.slack.com/team/websitebot'
 						,userId: 'dotnetbuildpacks support user'
-						,userImg: 'https://st-buildpacks.herokuapp.com/images/supporticon.png'
-						,defaultSysImg: 'https://st-buildpacks.herokuapp.com/images/supporticon.png'
-						,defaultSysUser: $('softtrends').val()
-						,botUser: $('website').val()
+						,userImg: 'supporticon.png'
+						,defaultSysImg: 'supporticon.png'
+						,defaultSysUser: $('#sysUser').val()
+						,botUser: $('#botUser').val()
 						,elementToDisable: $('.message-box')
 						,disableIfAway: false
 						,webCache: true
