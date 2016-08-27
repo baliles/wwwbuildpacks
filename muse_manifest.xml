@@ -1,7 +1,7 @@
-<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="dotnetbuildpacks.com" resolutions="1x" timestamp="1472320945634">
+<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="dotnetbuildpacks.com" resolutions="1x" timestamp="1472322270761">
   <folder name="css">
     <file name="site_global.css" crc="3877927608"/>
-    <file name="index.css" crc="4162137086" ref="index"/>
+    <file name="index.css" crc="443966774" ref="index"/>
     <file name="iefonts_index.css" crc="180449212" ref="index"/>
   </folder>
   <folder name="scripts">
@@ -90,7 +90,6 @@
     <file name="laptopscreen6.png" crc="4025446326" ref="index"/>
     <file name="olo-ieu134-fr.png" crc="349406468" ref="index"/>
     <file name="olo-u304-fr.png" crc="252362670" ref="index"/>
-    <file name="softtrends-.net-core-buildpacks-for-heroku-favicon.ico" crc="4033810568" ref="index"/>
   </folder>
   <folder name="tablet">
     <folder name="css">
@@ -106,5 +105,5 @@
     </folder>
     <file name="index.html" crc="3947085507" seo="true" mt="1472239467861" redirect="true"/>
   </folder>
-  <file name="index.html" crc="333512179" seo="true" mt="1472320911463" redirect="true"/>
+  <file name="index.html" crc="178481197" seo="true" mt="1472322255270" redirect="true"/>
 </manifest>
