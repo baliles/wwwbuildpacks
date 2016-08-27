@@ -719,7 +719,7 @@ document.body.appendChild(_$elz.b.e); }
         <p>Sign up to receive free .NET CORE buildpack updates!</p>
        </div>
        <div class="colelem" id="u3135"><!-- custom html -->
-        	<div class='container'>
+        <div class='container'>
 			<div class='page-header'>
 				<h2>SlackChat
 					<br><small>A support chat feature for your website that integrates with #Slack</small>
@@ -738,7 +738,7 @@ document.body.appendChild(_$elz.b.e); }
 					  <div class="form-group">
 					    <label for="apiToken" class="col-sm-3 control-label">Slack API Token:</label>
 					    <div class="col-sm-9">
-					      <input type="text" class="form-control" id="apiToken" placeholder="apiToken" value="" />
+					      <input type="text" class="form-control" id="apiToken" placeholder="xoxb-73667521857-cNzIZ9rYbFrK6LxqupAxTcqn" required="required" value="xoxb-73667521857-cNzIZ9rYbFrK6LxqupAxTcqn" />
 					      <div class="help-text">Generate your Slack token <a href="https://api.slack.com/web" target="_blank">here</a>.</div>
 					    </div>
 					  </div>
@@ -746,7 +746,7 @@ document.body.appendChild(_$elz.b.e); }
 					  <div class="form-group">
 					    <label for="channelId" class="col-sm-3 control-label">Slack Channel ID:</label>
 					    <div class="col-sm-9">
-					      <input type="text" class="form-control" id="channelId" placeholder="Required"  value="">
+					      <input type="text" class="form-control" id="channelId" placeholder="C2594QESG"  required="required" value="C2594QESG">
 					      <div class="help-text"><a href="javascript:void(0);" id="listChannels">Click here</a> to list your channels.</div>
 					      <div class="well channel-list" style="display:none;"></div>
 					    </div>
@@ -764,14 +764,14 @@ document.body.appendChild(_$elz.b.e); }
 					  <div class="form-group hide" id="serverApi">
 					    <label for="serverApiGateway" class="col-sm-3 control-label">Server API Gateway:</label>
 					    <div class="col-sm-9">
-					      <input type="text" class="form-control" id="serverApiGateway" placeholder="Required" value="">
+					      <input type="text" class="form-control" id="serverApiGateway" placeholder="/server/php/server.phpqn" value="/server/php/server.php">
 					    </div>
 					  </div>
 
 					  <div class="form-group hide" id="invitedUsers">
 					    <label for="defaultInvitedUsers" class="col-sm-3 control-label">List of users to Invite:</label>
 					    <div class="col-sm-9">
-					      <input type="text" class="form-control" id="defaultInvitedUsers" placeholder="Optional" value="">
+					      <input type="text" class="form-control" id="defaultInvitedUsers" placeholder="@david" value="@david">
 					    </div>
 					  </div>
 					
@@ -779,21 +779,21 @@ document.body.appendChild(_$elz.b.e); }
 					  <div class="form-group">
 					    <label for="user" class="col-sm-3 control-label">Username:</label>
 					    <div class="col-sm-9">
-					      <input type="text" class="form-control" id="user" placeholder="Required"  value="DemoUser">
+					      <input type="text" class="form-control" id="user" placeholder="Required"  required="required" value="Customer">
 					    </div>
 					  </div>
 
 					  <div class="form-group">
 					    <label for="sysUser" class="col-sm-3 control-label">Support Name:</label>
 					    <div class="col-sm-9">
-					      <input type="text" class="form-control" id="sysUser" placeholder="Required"  required="required" value="SlackChatDemo">
+					      <input type="text" class="form-control" id="sysUser" placeholder="Required"  required="required" value="dotnetBuildpacks.com">
 					    </div>
 					  </div>
 
 					  <div class="form-group">
 					    <label for="botUser" class="col-sm-3 control-label">Bot User Name:</label>
 					    <div class="col-sm-9">
-					      <input type="text" class="form-control" id="botUser" placeholder="Required"  value="DemoBot">
+					      <input type="text" class="form-control" id="botUser" placeholder="Required"  required="required" value="websitebot">
 					    </div>
 					  </div>
 					  
@@ -836,15 +836,15 @@ document.body.appendChild(_$elz.b.e); }
 					$('.message-box').hide();
 
 					slackChatOptions = {
-						apiToken: $('xoxb-73667521857-cNzIZ9rYbFrK6LxqupAxTcqn').val()
-						,channelId: $('C2594QESG').val()
+						apiToken: $('#apiToken').val()
+						,channelId: $('#channelId').val()
 						,user: $('#user').val()
-						,userLink: 'https://softtrends.slack.com/team/websitebot'
-						,userId: 'dotnetbuildpacks.com slack chat'
-						,userImg: 'support.png'
-						,defaultSysImg: 'support.png'
-						,defaultSysUser: $('Website User').val()
-						,botUser: $('websitebot').val()
+						,userLink: 'http://www.google.com'
+						,userId: 'TEST-USER'
+						,userImg: '/img/user-icon-small.jpg'
+						,defaultSysImg: '/img/improvi.png'
+						,defaultSysUser: $('#sysUser').val()
+						,botUser: $('#botUser').val()
 						,elementToDisable: $('.message-box')
 						,disableIfAway: false
 						,webCache: true
@@ -852,7 +852,7 @@ document.body.appendChild(_$elz.b.e); }
 						,privateChannel: false
 						,badgeElement: '.slack-message-count'
 						,useUserDetails: false
-						,defaultInvitedUsers: [@softtrends]
+						,defaultInvitedUsers: []
 						
 					};
 					
