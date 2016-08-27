@@ -23,7 +23,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <title>Softtrends .NET Core Buildpacks for Heroku</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=3877927608"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=443966774" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=358579742" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
   <link rel="stylesheet" type="text/css" href="css/iefonts_index.css?crc=180449212"/>
@@ -45,7 +45,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
 <link href="/css/slack-chat.css" rel="stylesheet" />
 <link href="/css/demo.css" rel="stylesheet" />
-	<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet" />		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">		<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>		<link href="/css/slack-chat.css" rel="stylesheet" />		<link href="/css/demo.css" rel="stylesheet" /><style type="text/css">html { overflow-x: hidden; }body { overflow-x: hidden; }</style>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet" /><link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"><link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'><link href="/css/slack-chat.css" rel="stylesheet" /><link href="/css/demo.css" rel="stylesheet" /><style type="text/css">html { overflow-x: hidden; }body { overflow-x: hidden; }</style>
   <!--HTML Widget code-->
   
 <link rel="stylesheet" href="https://cdn.plyr.io/1.8.7/plyr.css">
@@ -771,7 +771,7 @@ document.body.appendChild(_$elz.b.e); }
 					  <div class="form-group hide" id="invitedUsers">
 					    <label for="defaultInvitedUsers" class="col-sm-3 control-label">List of users to Invite:</label>
 					    <div class="col-sm-9">
-					      <input type="text" class="form-control" id="defaultInvitedUsers" placeholder="david" value="david">
+					      <input type="text" class="form-control" id="defaultInvitedUsers" placeholder="@david" value="@david">
 					    </div>
 					  </div>
 					
@@ -779,21 +779,21 @@ document.body.appendChild(_$elz.b.e); }
 					  <div class="form-group">
 					    <label for="user" class="col-sm-3 control-label">Username:</label>
 					    <div class="col-sm-9">
-					      <input type="text" class="form-control" id="user" placeholder="Required"  required="required" value="Customer">
+					      <input type="text" class="form-control" id="user" placeholder="Customer"  required="required" value="Customer">
 					    </div>
 					  </div>
 
 					  <div class="form-group">
 					    <label for="sysUser" class="col-sm-3 control-label">Support Name:</label>
 					    <div class="col-sm-9">
-					      <input type="text" class="form-control" id="sysUser" placeholder="Required"  required="required" value="dotnetBuildpacks.com">
+					      <input type="text" class="form-control" id="sysUser" placeholder="dotnetBuildpacks.com"  required="required" value="dotnetBuildpacks.com">
 					    </div>
 					  </div>
 
 					  <div class="form-group">
 					    <label for="botUser" class="col-sm-3 control-label">Bot User Name:</label>
 					    <div class="col-sm-9">
-					      <input type="text" class="form-control" id="botUser" placeholder="Required"  required="required" value="websitebot">
+					      <input type="text" class="form-control" id="botUser" placeholder="websitebot"  required="required" value="websitebot">
 					    </div>
 					  </div>
 					  
@@ -843,7 +843,7 @@ document.body.appendChild(_$elz.b.e); }
 						,userId: 'dotnetbuildpacks support user'
 						,userImg: 'supporticon.png'
 						,defaultSysImg: 'supporticon.png'
-						,defaultSysUser: $('#sysUser').val()
+						,defaultSysUser: $('softtrends').val()
 						,botUser: $('#botUser').val()
 						,elementToDisable: $('.message-box')
 						,disableIfAway: false
