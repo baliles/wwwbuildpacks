@@ -20,13 +20,14 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   
   <link media="only screen and (max-width: 370px)" rel="alternate" href="http://dotnetbuildpacks.com/phone/index.html"/>
   <link media="only screen and (max-width: 960px)" rel="alternate" href="http://dotnetbuildpacks.com/tablet/index.html"/>
-  <title>App</title>
+  <link rel="shortcut icon" href="images/softtrends-.net-core-buildpacks-for-heroku-favicon.ico?crc=4033810568"/>
+  <title>Softtrends .NET Core Buildpacks for Heroku</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=3877927608"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=253884774" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=3919449984" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
-  <link rel="stylesheet" type="text/css" href="css/iefonts_index.css?crc=28061952"/>
+  <link rel="stylesheet" type="text/css" href="css/iefonts_index.css?crc=180449212"/>
   <![endif]-->
   <!-- Other scripts -->
   <script type="text/javascript">
@@ -69,6 +70,137 @@ transition:all 0.4s ease 0s;
 html { overflow-x: hidden; }
 body { overflow-x: hidden; }
 </style>
+  <!--HTML Widget code-->
+  
+<link rel="stylesheet" href="https://cdn.plyr.io/1.8.7/plyr.css">
+<style>
+video {
+width: 100%;
+max-width: 100%;
+}
+.plyr--video {
+    cursor: pointer;
+}
+.plyr__progress--played, .plyr__volume--display {
+    color: #000000!important;
+}
+.plyr input[type=range]::-ms-fill-lower {
+    background: #000000!important;
+}
+.plyr__controls button:hover {
+background: #000000!important;
+    color: #FFFFFF!important;
+}
+.plyr input[type=range]:active::-webkit-slider-thumb {
+    background: #000000!important;
+    border-color: #fff;
+}
+.plyr input[type=range]:active::-moz-range-thumb {
+    background: #000000!important;
+    border-color: #fff;
+}
+.plyr input[type=range]:active::-ms-thumb {
+    background: #000000!important;
+    border-color: #fff;
+}
+.plyr--video .plyr__controls button.tab-focus:focus,
+.plyr--video .plyr__controls button:hover {
+    background: #000000!important;
+    color: #FFFFFF!important;
+}
+
+/* Player */
+/* Button Radius */
+.plyr__controls button {
+    border-radius: 3px!important;
+}
+
+
+/* Tooltip */
+.plyr__tooltip {
+    background: rgba(0,0,0, .7)!important;
+    border-radius: 3px!important;
+}
+.plyr__tooltip::before {
+    border-top: 4px solid rgba(0,0,0, .7)!important;
+}
+/* SVG size */
+.plyr__controls button svg {
+    width: 18px;
+    height: 18px;
+}
+/* Big center button controls */
+.plyr__play-large {
+    padding: 30px;
+    border: 0px solid transparent;
+}
+.plyr__play-large svg {
+    position: relative;
+    left: 2px;
+    width: 20px;
+    height: 20px;
+    display: block;
+/* This controls the color of the icon */
+    fill: #000000!important;
+}
+
+.plyr__play-large {
+    background: rgba(255,255,255,0.7)!important;
+}
+
+.plyr--video:hover .plyr__play-large {
+    background: rgba(140,198,63,0.7)!important;
+}
+/* Player Position */
+.plyr--video .plyr__controls {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;padding: 50px 10px 10px;
+    background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,.5));
+    border-bottom-left-radius: inherit;
+    border-bottom-right-radius: inherit;
+/* This controls the color of the icon */
+    color: #000000!important;
+    transition: opacity .3s ease;
+}
+
+.plyr__controls .plyr__progress:first-child, .plyr__controls .plyr__time:first-child, .plyr__controls>button:first-child {
+    margin-left: 0;
+}
+@media (min-width: 480px)
+.plyr__controls .plyr__progress, .plyr__controls .plyr__time, .plyr__controls>button {
+    margin-left: 10px;
+}
+
+.plyr__controls button {
+ padding: 10px;
+} 
+
+.plyr--video .plyr__controls {
+ padding: 10px!important;
+}
+
+.plyr__captions span {
+    border-radius: 3px;
+    padding: 4px 10px;
+    background: rgba(0,0,0,0.7);
+}
+.plyr__captions  {
+font-size: 1em;
+}
+</style>
+
+
+    
+
+    <style>
+        .plyr--video .plyr__controls {
+    background: rgba(255,255,255,0.9)!important;
+}
+
+    </style>
+    
  </head>
  <body>
 
@@ -134,6 +266,64 @@ body { overflow-x: hidden; }
      <div class="browser_width grpelem" id="u692-bw">
       <div id="u692"><!-- simple frame --></div>
      </div>
+     <div class="browser_width grpelem" id="u606-bw">
+      <div class="gradient" id="u606"><!-- simple frame --></div>
+     </div>
+     <div class="PamphletWidget clearfix grpelem" id="pamphletu607"><!-- none box -->
+      <div class="ThumbGroup clearfix grpelem" id="u627"><!-- none box -->
+       <div class="popup_anchor">
+        <div class="Thumb popup_element" id="u630"><!-- simple frame --></div>
+       </div>
+       <div class="popup_anchor">
+        <div class="Thumb popup_element" id="u631"><!-- simple frame --></div>
+       </div>
+       <div class="popup_anchor">
+        <div class="Thumb popup_element" id="u628"><!-- simple frame --></div>
+       </div>
+       <div class="popup_anchor">
+        <div class="Thumb popup_element" id="u629"><!-- simple frame --></div>
+       </div>
+      </div>
+      <div class="popup_anchor" id="u612popup">
+       <div class="ContainerGroup clearfix" id="u612"><!-- stack box -->
+        <div class="Container clearfix grpelem" id="u622"><!-- column -->
+         <div class="clearfix colelem" id="u624-4"><!-- content -->
+          <p>&quot;Instead of building and maintaining our own Heroku Buildpacks for .NET Core with Add-On dependencies, Softtrends does it for us and offers great support for our developers at the same time&quot;</p>
+         </div>
+         <div class="clearfix colelem" id="u623-4"><!-- content -->
+          <p>Gentry Ganote, Rojoli CTO</p>
+         </div>
+        </div>
+        <div class="Container invi clearfix grpelem" id="u613"><!-- column -->
+         <div class="clearfix colelem" id="u615-4"><!-- content -->
+          <p>Every picture owes more to other pictures painted before than it owes to nature.</p>
+         </div>
+         <div class="clearfix colelem" id="u614-4"><!-- content -->
+          <p>E.H. Gombrich</p>
+         </div>
+        </div>
+        <div class="Container invi clearfix grpelem" id="u619"><!-- column -->
+         <div class="clearfix colelem" id="u620-4"><!-- content -->
+          <p>Every picture owes more to other pictures painted before than it owes to nature.</p>
+         </div>
+         <div class="clearfix colelem" id="u621-4"><!-- content -->
+          <p>E.H. Gombrich</p>
+         </div>
+        </div>
+        <div class="Container invi clearfix grpelem" id="u616"><!-- column -->
+         <div class="clearfix colelem" id="u617-4"><!-- content -->
+          <p>Every picture owes more to other pictures painted before than it owes to nature.</p>
+         </div>
+         <div class="clearfix colelem" id="u618-4"><!-- content -->
+          <p>E.H. Gombrich</p>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="elem-2 clearfix grpelem" id="u632-4"><!-- content -->
+      <p>WHY CUSTOMERS LOVE OUR BUILDPACKS</p>
+     </div>
      <div class="browser_width grpelem" id="u691-bw">
       <div id="u691"><!-- column -->
        <div class="clearfix" id="u691_align_to_page">
@@ -143,10 +333,18 @@ body { overflow-x: hidden; }
         <div class="clearfix colelem" id="u536-4"><!-- content -->
          <p>In our Demo below, we are deploying an ASP.NET Core app with Heroku Postgres database support</p>
         </div>
-        <div class="museBGSize size_fixed colelem" id="u537"><!-- custom html -->
-         
-    <iframe class="actAsDiv" src="http://player.vimeo.com/video/https://vimeo.com/180112565?title=1&amp;byline=0&amp;portrait=0&amp;color=FFFFFF&amp;autoplay=0&amp;loop=0&amp;wmode=transparent" width="1184" height="671" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+        <div class="clearfix colelem" id="pu3047"><!-- group -->
+         <div class="size_fixed grpelem" id="u3047"><!-- custom html -->
+          
 
+
+<div id="vid2u3047 "data-type="youtube" data-video-id="719XOY55-y8"></div>
+
+
+         </div>
+         <div class="clearfix grpelem" id="u3044-3"><!-- content -->
+          <p>&nbsp;</p>
+         </div>
         </div>
         <div class="elem-2 clearfix colelem" id="u539-4"><!-- content -->
          <p>AVAILABLE HEROKU .NET CORE BUILDPACK BUNDLES</p>
@@ -158,7 +356,7 @@ body { overflow-x: hidden; }
            <div class="elem-3 rounded-corners grpelem" id="u544"><!-- simple frame --></div>
           </div>
           <div class="elem-3 clearfix grpelem" id="u547-4"><!-- content -->
-           <p>Includes 1 Heroku Buildpack of your choice, 1 Sample Application and 1 Visual Studio Project</p>
+           <p>Includes .NET Core Buildpack with Microsoft SQL Server support, Demo App &amp; Visual Studio Solution</p>
           </div>
           <div class="elem-3 clearfix grpelem" id="u549-4"><!-- content -->
            <p>1 .NET Core Heroku Buildpack</p>
@@ -167,19 +365,16 @@ body { overflow-x: hidden; }
            <p>1 Sample Heroku Application</p>
           </div>
           <div class="elem-3 clearfix grpelem" id="u541-4"><!-- content -->
-           <p>1 Visual Studio Project</p>
+           <p>1 Visual Studio Project Source</p>
           </div>
           <div class="elem-3 clearfix grpelem" id="u551-4"><!-- content -->
-           <p>Buildpack Support &amp; Upgrades</p>
+           <p>(Optional Support Package)</p>
           </div>
           <div class="elem-3 clearfix grpelem" id="u548-4"><!-- content -->
-           <p>$99</p>
+           <p>$199</p>
           </div>
           <div class="elem-3 clearfix grpelem" id="u546-4"><!-- content -->
-           <p>SINGLE BUILDPACK</p>
-          </div>
-          <div class="hover-1 rounded-corners clearfix grpelem" id="u550-4"><!-- content -->
-           <p>Order &amp; Download</p>
+           <p>.NET CORE + MS.SQL BUILDPACK</p>
           </div>
          </div>
          <div class="clearfix grpelem" id="u552"><!-- group -->
@@ -188,28 +383,25 @@ body { overflow-x: hidden; }
            <div class="elem-1 rounded-corners grpelem" id="u563"><!-- simple frame --></div>
           </div>
           <div class="clearfix grpelem" id="u554-4"><!-- content -->
-           <p>Includes All Heroku Buildpacks, Free Upgrades, Support, All of the Sample Applications and Visual Studio Projects</p>
+           <p>Includes .NET Core Buildpack with Postgres Database support, Demo App and the Visual Studio Solution code</p>
           </div>
           <div class="clearfix grpelem" id="u556-4"><!-- content -->
-           <p>All 4 .NET Core Heroku Buildpacks</p>
+           <p>1 .NET Core Heroku Buildpack</p>
           </div>
           <div class="clearfix grpelem" id="u557-4"><!-- content -->
-           <p>All 4 Sample Heroku Applications</p>
+           <p>1 Sample Heroku Postgres App</p>
           </div>
           <div class="clearfix grpelem" id="u558-4"><!-- content -->
-           <p>4 Visual Studio Projects</p>
+           <p>1 Visual Studio Project Source</p>
           </div>
           <div class="clearfix grpelem" id="u559-4"><!-- content -->
-           <p>Buildpack Support &amp; Upgrades</p>
+           <p>(Optional Support Package)</p>
           </div>
           <div class="clearfix grpelem" id="u555-4"><!-- content -->
-           <p>$250</p>
+           <p>$199</p>
           </div>
           <div class="elem-2 clearfix grpelem" id="u560-4"><!-- content -->
-           <p>ALL BUILDPACKS &amp; UPDATES</p>
-          </div>
-          <div class="hover-1 rounded-corners clearfix grpelem" id="u553-4"><!-- content -->
-           <p>Order &amp; Download</p>
+           <p>.NET CORE + POSTGRES BUILDPACK</p>
           </div>
          </div>
          <div class="clearfix grpelem" id="u564"><!-- group -->
@@ -218,29 +410,65 @@ body { overflow-x: hidden; }
            <div class="elem-5 rounded-corners grpelem" id="u574"><!-- simple frame --></div>
           </div>
           <div class="elem-5 clearfix grpelem" id="u565-4"><!-- content -->
-           <p>Includes 1 Heroku Buildpack, Sample Application, Visual Studio Project, Free Upgrades &amp; Support</p>
+           <p>Includes .NET Core Buildpack with MySQL support (ClearDB/JawsDB), Demo App &amp; Visual Studio Solution</p>
           </div>
           <div class="elem-5 clearfix grpelem" id="u567-4"><!-- content -->
-           <p>2 .NET Core Heroku Buildpack</p>
+           <p>1 .NET Core Heroku Buildpack</p>
           </div>
           <div class="elem-5 clearfix grpelem" id="u568-4"><!-- content -->
-           <p>2 Sample Heroku Application</p>
+           <p>1 Sample Heroku MySQL App.</p>
           </div>
           <div class="elem-5 clearfix grpelem" id="u569-4"><!-- content -->
-           <p>2 Visual Studio Projects</p>
+           <p>1 Visual Studio Project Source</p>
           </div>
           <div class="elem-5 clearfix grpelem" id="u570-4"><!-- content -->
-           <p>Buildpack Support &amp; Upgrades</p>
+           <p>(Optional Support Package)</p>
           </div>
           <div class="elem-5 clearfix grpelem" id="u566-4"><!-- content -->
-           <p>$150</p>
+           <p>$199</p>
           </div>
           <div class="elem-5 clearfix grpelem" id="u571-4"><!-- content -->
-           <p>2 BUILDPACKS</p>
+           <p>.NET CORE + MYSQL BUILDPACK</p>
           </div>
-          <div class="hover-1 rounded-corners clearfix grpelem" id="u572-4"><!-- content -->
-           <p>Order &amp; Download</p>
-          </div>
+         </div>
+         <div class="size_fixed grpelem" id="u3029"><!-- custom html -->
+          
+<script data-selz-t="_selz-btn-default" data-selz-a='modal' data-selz-ct="FFFFFF" data-selz-cb="2B2B2B" data-selz-chbg="2B2B2B" data-selz-chbg="FFFFFF" data-selz-b="http://selz.co/Vyv3gqc9W" data-selz-lg='true' data-text="Order & Deploy">
+if (typeof _$elz === "undefined") { var _$elz = {}; }
+if (typeof _$elz.b === "undefined") {
+_$elz.b = { e: document.createElement("script") };
+_$elz.b.e.src = "https://selz.com/embed/button";
+document.body.appendChild(_$elz.b.e); }
+</script>
+<noscript><a href="http://selz.co/Vyv3gqc9W" target="_blank">Buy it now</a></noscript>
+
+
+         </div>
+         <div class="size_fixed grpelem" id="u3034"><!-- custom html -->
+          
+<script data-selz-t="_selz-btn-default" data-selz-a='modal' data-selz-ct="FFFFFF" data-selz-cb="2B2B2B" data-selz-chbg="2B2B2B" data-selz-chbg="FFFFFF" data-selz-b="http://selz.co/4ysmb5cqb" data-selz-lg='true' data-text="Order & Deploy">
+if (typeof _$elz === "undefined") { var _$elz = {}; }
+if (typeof _$elz.b === "undefined") {
+_$elz.b = { e: document.createElement("script") };
+_$elz.b.e.src = "https://selz.com/embed/button";
+document.body.appendChild(_$elz.b.e); }
+</script>
+<noscript><a href="http://selz.co/4ysmb5cqb" target="_blank">Buy it now</a></noscript>
+
+
+         </div>
+         <div class="size_fixed grpelem" id="u3039"><!-- custom html -->
+          
+<script data-selz-t="_selz-btn-default" data-selz-a='modal' data-selz-ct="FFFFFF" data-selz-cb="2B2B2B" data-selz-chbg="2B2B2B" data-selz-chbg="FFFFFF" data-selz-b="http://selz.co/VyzY$9c5$" data-selz-lg='true' data-text="Order & Deploy">
+if (typeof _$elz === "undefined") { var _$elz = {}; }
+if (typeof _$elz.b === "undefined") {
+_$elz.b = { e: document.createElement("script") };
+_$elz.b.e.src = "https://selz.com/embed/button";
+document.body.appendChild(_$elz.b.e); }
+</script>
+<noscript><a href="http://selz.co/VyzY$9c5$" target="_blank">Buy it now</a></noscript>
+
+
          </div>
         </div>
        </div>
@@ -508,94 +736,150 @@ body { overflow-x: hidden; }
     <div class="browser_width mse_pre_init" id="u711-bw">
      <div class="elem-4 museBGSize" id="u711"><!-- simple frame --></div>
     </div>
-    <div class="clearfix colelem" id="pu606"><!-- group -->
-     <div class="browser_width grpelem" id="u606-bw">
-      <div class="gradient" id="u606"><!-- simple frame --></div>
+    <div class="browser_width colelem" id="u638-bw">
+     <div id="u638"><!-- column -->
+      <div class="clearfix" id="u638_align_to_page">
+       <div class="elem-2 clearfix colelem" id="u652-4"><!-- content -->
+        <p>Sign up to receive free .NET CORE buildpack updates!</p>
+       </div>
+       <div class="colelem" id="u3135"><!-- custom html -->
+         <div class="col-sm-offset-3 col-sm-9">
+<button class="btn btn-danger btn-md btn-default btn-try">Try Now</button>&emsp;
+<a class='btn btn-md btn-info' href='https://github.com/improvi/slack-chat/zipball/master'>Download<a>
+</div>	
+
+<div class="message-box" data-toggle="tooltip" title="Need help?">
+<a href="javascript:void(0);" class="message-box-icon">
+<i class="fa fa-fw fa-question-circle"></i>
+<div class="badge badge-danger slack-message-count"></div></a>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment.min.js"></script>
+<script type="text/javascript" src="/js/slack-chat.js"></script>
+<script>
+$(document).ready(function () {
+
+$('.message-box > a').slackChat('destroy');
+$('.message-box').hide();
+$('[data-toggle=tooltip]').tooltip();
+$('.buttonu3117').on('click', function (e) {
+e.preventDefault();
+e.stopPropagation();
+
+$('.message-box > a').slackChat('destroy');
+$('.message-box').hide();
+
+slackChatOptions = {
+apiToken: $('xoxb-73667521857-9n9tw00L6EY7WNZ6hIAr3p2s').val()
+,channelId: $('C2594QESG').val()
+,user: $('#user').val()
+,userLink: 'http://www.google.com'
+,userId: 'dotnetbuildpacks.com support request'
+,userImg: 'supporticon.png'
+,defaultSysImg: 'supporticon.png'
+,defaultSysUser: $('Buildpacks Support').val()
+,botUser: $('websitebot').val()
+,elementToDisable: $('.message-box')
+,disableIfAway: false
+,webCache: true
+,debug:false
+,privateChannel: false
+,badgeElement: '.slack-message-count'
+,useUserDetails: false
+,defaultInvitedUsers: []			
+};
+					
+if($('#usePrivateChannel').prop('checked')) {
+slackChatOptions.privateChannel = true;
+slackChatOptions.serverApiGateway = $('#serverApiGateway').val();
+slackChatOptions.defaultInvitedUsers = $('#defaultInvitedUsers').val().split(",");
+}
+
+$('.message-box > a').slackChat(slackChatOptions);
+$('.message-box').show();
+return false;
+});
+
+//load from localStorage
+for ( var i = 0, len = localStorage.length; i < len; ++i ) {
+
+if(localStorage.key(i) == 'scParams') {
+var scParams = JSON.parse(localStorage.getItem( localStorage.key( i ) ));
+
+if(scParams.apiToken) $('#apiToken').val(scParams.apiToken);
+if(scParams.channelId) $('#channelId').val(scParams.channelId);
+if(scParams.user) $('#user').val(scParams.user);
+if(scParams.defaultSysUser) $('#sysUser').val(scParams.defaultSysUser);
+if(scParams.botUser) $('#botUser').val(scParams.botUser);
+if(scParams.serverApiGateway) $('#serverApiGateway').val(scParams.serverApiGateway);
+if(scParams.defaultInvitedUsers) $('#defaultInvitedUsers').val(scParams.defaultInvitedUsers);
+}
+}
+
+//load the channels
+$('#listChannels').on("click", function () {
+$('.channel-list').html('').hide();
+
+if($('#apiToken').val() == '') {
+$('.channel-list').html("Invalid Slack API Token").show();
+return false;
+}
+
+$.ajax({
+url: "https://slack.com/api/channels.list"
+,type: "POST"
+,dataType: "json"
+,data: {
+token: $('#apiToken').val()
+}
+,success: function (resp) {
+if(resp.ok) {
+if(resp.channels.length) {
+var html = "<table class='table table-condensed table-striped table-bordered'><tr><th>Channel Name</td><td>Channel ID</td>";
+for(var i=0; i< resp.channels.length;i++) {
+if(!resp.channels[i].is_archived)
+html += "<tr><td>" + resp.channels[i].name + "</td><td><span class='channel-id'>" + resp.channels[i].id + "</span><a class='btn btn-xs btn-danger use-channel pull-right'>Use</a></td>";
+}
+html += "</table>";
+$('.channel-list').html(html).show();
+
+$('.use-channel').off('click');
+$('.use-channel').on('click', function () {
+												
+$('#channelId').val($(this).parent().find('.channel-id').text());
+$('.channel-list').hide();
+									
+});
+}
+else
+$('.channel-list').html("No channels found").show();	
+}
+}
+});	
+});
+				
+$('#usePrivateChannel').on('change', function () {
+if($(this).prop('checked')) {
+$("#serverApi").removeClass("hide");
+$("#invitedUsers").removeClass("hide");
+}
+else {
+$("#serverApi").addClass("hide");
+$("#invitedUsers").addClass("hide");
+}
+});
+});
+		</script>
+       </div>
+       <div class="Button rounded-corners clearfix colelem" id="buttonu3117"><!-- container box -->
+        <div class="clearfix grpelem" id="u3118-4"><!-- content -->
+         <p>Chat with Us on Slack</p>
+        </div>
+       </div>
+      </div>
      </div>
-     <div class="PamphletWidget clearfix grpelem" id="pamphletu607"><!-- none box -->
-      <div class="ThumbGroup clearfix grpelem" id="u627"><!-- none box -->
-       <div class="popup_anchor">
-        <div class="Thumb popup_element" id="u630"><!-- simple frame --></div>
-       </div>
-       <div class="popup_anchor">
-        <div class="Thumb popup_element" id="u631"><!-- simple frame --></div>
-       </div>
-       <div class="popup_anchor">
-        <div class="Thumb popup_element" id="u628"><!-- simple frame --></div>
-       </div>
-       <div class="popup_anchor">
-        <div class="Thumb popup_element" id="u629"><!-- simple frame --></div>
-       </div>
-      </div>
-      <div class="popup_anchor" id="u612popup">
-       <div class="ContainerGroup clearfix" id="u612"><!-- stack box -->
-        <div class="Container clearfix grpelem" id="u622"><!-- column -->
-         <div class="clearfix colelem" id="u624-4"><!-- content -->
-          <p>&quot;Instead of building and maintaining our own Heroku Buildpacks for .NET Core with Add-On dependencies, Softtrends does it for us and offers great support for our developers at the same time&quot;</p>
-         </div>
-         <div class="clearfix colelem" id="u623-4"><!-- content -->
-          <p>Gentry Ganote, Rojoli CTO</p>
-         </div>
-        </div>
-        <div class="Container invi clearfix grpelem" id="u613"><!-- column -->
-         <div class="clearfix colelem" id="u615-4"><!-- content -->
-          <p>Every picture owes more to other pictures painted before than it owes to nature.</p>
-         </div>
-         <div class="clearfix colelem" id="u614-4"><!-- content -->
-          <p>E.H. Gombrich</p>
-         </div>
-        </div>
-        <div class="Container invi clearfix grpelem" id="u619"><!-- column -->
-         <div class="clearfix colelem" id="u620-4"><!-- content -->
-          <p>Every picture owes more to other pictures painted before than it owes to nature.</p>
-         </div>
-         <div class="clearfix colelem" id="u621-4"><!-- content -->
-          <p>E.H. Gombrich</p>
-         </div>
-        </div>
-        <div class="Container invi clearfix grpelem" id="u616"><!-- column -->
-         <div class="clearfix colelem" id="u617-4"><!-- content -->
-          <p>Every picture owes more to other pictures painted before than it owes to nature.</p>
-         </div>
-         <div class="clearfix colelem" id="u618-4"><!-- content -->
-          <p>E.H. Gombrich</p>
-         </div>
-        </div>
-       </div>
-      </div>
-     </div>
-     <div class="elem-2 clearfix grpelem" id="u632-4"><!-- content -->
-      <p>WHY CUSTOMERS LOVE OUR BUILDPACKS</p>
-     </div>
-    </div>
-    <div class="clearfix colelem" id="pu638"><!-- group -->
-     <div class="browser_width grpelem" id="u638-bw">
-      <div id="u638"><!-- group -->
-       <div class="clearfix" id="u638_align_to_page">
-        <div class="elem-2 clearfix grpelem" id="u652-4"><!-- content -->
-         <p>Sign up to receive free .NET CORE buildpack updates!</p>
-        </div>
-       </div>
-      </div>
-     </div>
-     <form class="form-grp clearfix grpelem" id="widgetu639" method="post" enctype="multipart/form-data" action="scripts/form-u639.php"><!-- none box -->
-      <div class="fld-grp clearfix grpelem" id="widgetu645" data-required="true"><!-- none box -->
-       <span class="fld-input NoWrap actAsDiv rounded-corners clearfix grpelem" id="u647-4"><!-- content --><input class="wrapped-input" type="text" spellcheck="false" id="widgetu645_input" name="custom_U645" tabindex="1"/><label class="wrapped-input fld-prompt" id="widgetu645_prompt" for="widgetu645_input"><span class="actAsPara">Enter Name</span></label></span>
-      </div>
-      <div class="fld-grp clearfix grpelem" id="widgetu640" data-required="true" data-type="email"><!-- none box -->
-       <span class="fld-input NoWrap actAsDiv rounded-corners clearfix grpelem" id="u643-4"><!-- content --><input class="wrapped-input" type="email" spellcheck="false" id="widgetu640_input" name="Email" tabindex="2"/><label class="wrapped-input fld-prompt" id="widgetu640_prompt" for="widgetu640_input"><span class="actAsPara">Enter Email</span></label></span>
-      </div>
-      <div class="clearfix grpelem" id="u644-4"><!-- content -->
-       <p>Submitting Form...</p>
-      </div>
-      <div class="clearfix grpelem" id="u650-4"><!-- content -->
-       <p>The server encountered an error.</p>
-      </div>
-      <div class="clearfix grpelem" id="u649-4"><!-- content -->
-       <p>Form received.</p>
-      </div>
-      <input class="submit-btn NoWrap grpelem" id="u651-17" type="submit" value="" tabindex="3"/><!-- state-based BG images -->
-     </form>
     </div>
     <div class="clearfix colelem" id="pu633"><!-- group -->
      <div class="grpelem" id="u633"><!-- custom html -->
@@ -662,7 +946,7 @@ $('.elem-6').attr({'data-wow-duration':'1s', 'data-wow-delay':'0.7s'});
       </div>
      </div>
     </div>
-    <div class="verticalspacer" data-offset-top="6875" data-content-above-spacer="6875" data-content-below-spacer="0"></div>
+    <div class="verticalspacer" data-offset-top="7432" data-content-above-spacer="7432" data-content-below-spacer="0"></div>
    </div>
   </div>
   <div class="preload_images">
@@ -675,10 +959,14 @@ $('.elem-6').attr({'data-wow-duration':'1s', 'data-wow-delay':'0.7s'});
    <img class="preload" src="images/ik-22.png?crc=488780543" alt=""/>
    <img class="preload" src="images/ik-51.png?crc=4060667955" alt=""/>
    <img class="preload" src="images/ik-5.png?crc=336135125" alt=""/>
-   <img class="preload" src="images/u651-17-r.png?crc=432450229" alt=""/>
-   <img class="preload" src="images/u651-17-m.png?crc=432450229" alt=""/>
-   <img class="preload" src="images/u651-17-fs.png?crc=4219144062" alt=""/>
   </div>
+  <!-- JS includes -->
+  <script type="text/javascript">
+   if (document.location.protocol != 'https:') document.write('\x3Cscript src="http://musecdn2.businesscatalyst.com/scripts/4.0/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+</script>
+  <script type="text/javascript">
+   window.jQuery || document.write('\x3Cscript src="scripts/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+</script>
   <!-- Other scripts -->
   <script type="text/javascript">
    window.Muse.assets.check=function(d){if(!window.Muse.assets.checked){window.Muse.assets.checked=!0;var b={},c=function(a,b){if(window.getComputedStyle){var c=window.getComputedStyle(a,null);return c&&c.getPropertyValue(b)||c&&c[b]||""}if(document.documentElement.currentStyle)return(c=a.currentStyle)&&c[b]||a.style&&a.style[b]||"";return""},a=function(a){if(a.match(/^rgb/))return a=a.replace(/\s+/g,"").match(/([\d\,]+)/gi)[0].split(","),(parseInt(a[0])<<16)+(parseInt(a[1])<<8)+parseInt(a[2]);if(a.match(/^\#/))return parseInt(a.substr(1),
@@ -693,10 +981,9 @@ Muse.Utils.resizeHeight('.browser_width');/* resize height */
 Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
 Muse.Utils.fullPage('#page');/* 100% height page */
 Muse.Utils.initWidget('.MenuBar', ['#bp_infinity'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
+Muse.Utils.initWidget('#pamphletu607', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'click',deactivationEvent:'',autoPlay:false,displayInterval:3000,transitionStyle:'horizontal',transitionDuration:500,hideAllContentsFirst:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false}); });/* #pamphletu607 */
 Muse.Utils.initWidget('#pamphletu503', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'click',deactivationEvent:'',autoPlay:false,displayInterval:3000,transitionStyle:'horizontal',transitionDuration:500,hideAllContentsFirst:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false}); });/* #pamphletu503 */
 Muse.Utils.initWidget('#pamphletu277', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'loose',event:'click',deactivationEvent:'none',autoPlay:true,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false}); });/* #pamphletu277 */
-Muse.Utils.initWidget('#pamphletu607', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'click',deactivationEvent:'',autoPlay:false,displayInterval:3000,transitionStyle:'horizontal',transitionDuration:500,hideAllContentsFirst:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false}); });/* #pamphletu607 */
-Muse.Utils.initWidget('#widgetu639', ['#bp_infinity'], function(elem) { return new WebPro.Widget.Form(elem, {validationEvent:'submit',errorStateSensitivity:'high',fieldWrapperClass:'fld-grp',formSubmittedClass:'frm-sub-st',formErrorClass:'frm-subm-err-st',formDeliveredClass:'frm-subm-ok-st',notEmptyClass:'non-empty-st',focusClass:'focus-st',invalidClass:'fld-err-st',requiredClass:'fld-err-st',ajaxSubmit:true}); });/* #widgetu639 */
 $('#u131-bw').registerPositionScrollEffect([{"in":[-Infinity,0],"speed":[null,0]},{"in":[0,Infinity],"speed":[null,0]}]);/* scroll effect */
 $('#menuu132').registerPositionScrollEffect([{"in":[-Infinity,0],"speed":[0,0]},{"in":[0,Infinity],"speed":[0,0]}]);/* scroll effect */
 $('#u183').registerPositionScrollEffect([{"in":[-Infinity,0],"speed":[0,0]},{"in":[0,Infinity],"speed":[0,0]}]);/* scroll effect */
@@ -708,5 +995,17 @@ Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 </script>
   <!-- RequireJS script -->
   <script src="scripts/require.js?crc=4108833657" type="text/javascript" async data-main="scripts/museconfig.js?crc=169177150" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
+  
+  <!--HTML Widget code-->
+  
+<script src="https://cdn.plyr.io/1.8.7/plyr.js"></script>
+<script>
+plyr.setup({
+iconUrl:'https://cdn.plyr.io/1.8.6/plyr.svg',
+autoplay:false,
+controls: ['play-large', 'play', 'progress', 'current-time', 'mute', 'volume', 'captions', 'fullscreen'],
+});
+</script>
+
    </body>
 </html>

@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://dotnetbuildpacks.com/index.html</loc>
-    <lastmod>2016-08-26</lastmod>
+    <lastmod>2016-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://dotnetbuildpacks.com/phone/index.html"/>
@@ -10,13 +10,13 @@
   </url>
   <url>
     <loc>http://dotnetbuildpacks.com/images/button.svg</loc>
-    <lastmod>2016-08-26</lastmod>
+    <lastmod>2016-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://dotnetbuildpacks.com/images/sampleapp-m.png</loc>
-    <lastmod>2016-08-26</lastmod>
+    <lastmod>2016-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

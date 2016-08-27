@@ -1,8 +1,8 @@
-<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="dotnetbuildpacks.com" resolutions="1x" timestamp="1472240118864">
+<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="dotnetbuildpacks.com" resolutions="1x" timestamp="1472320094485">
   <folder name="css">
     <file name="site_global.css" crc="3877927608"/>
-    <file name="index.css" crc="253884774" ref="index"/>
-    <file name="iefonts_index.css" crc="28061952" ref="index"/>
+    <file name="index.css" crc="3919449984" ref="index"/>
+    <file name="iefonts_index.css" crc="180449212" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="169078940" ref="phone>index:tablet>index:index"/>
@@ -16,16 +16,15 @@
     <file name="musewpslideshow.js" crc="4265225696" ref="phone>index:tablet>index:index"/>
     <file name="jquery.museoverlay.js" crc="4075157096" ref="phone>index:tablet>index:index"/>
     <file name="touchswipe.js" crc="474750357" ref="phone>index:tablet>index:index"/>
-    <file name="form_check.php" crc="121412709" ref="phone>index:index"/>
-    <file name="form_throttle.php" crc="4268640971" ref="phone>index:index"/>
-    <file name="form_process.php" crc="444429785" ref="phone>index:index"/>
+    <file name="form_check.php" crc="121412709" ref="phone>index"/>
+    <file name="form_throttle.php" crc="4268640971" ref="phone>index"/>
+    <file name="form_process.php" crc="444429785" ref="phone>index"/>
     <file name="form-u1240.php" crc="3834375646" ref="phone>index"/>
     <file name="jquery.scrolleffects.js" crc="511146689" ref="phone>index:tablet>index:index"/>
     <file name="require.js" crc="4108833657" ref="phone>index:tablet>index:index"/>
     <file name="jquery.musemenu.js" crc="4150485998" ref="tablet>index:index"/>
     <file name="form-u1049.php" crc="220570321" ref="tablet>index"/>
     <file name="html5shiv.js" crc="4241844378" ref="tablet>index:index"/>
-    <file name="form-u639.php" crc="4205289643" ref="index"/>
   </folder>
   <folder name="images">
     <file name="appstore1.png" crc="4203174801" ref="phone>index:tablet>index"/>
@@ -67,10 +66,6 @@
     <file name="u1061-17-fs.png" crc="4219144062" ref="tablet>index"/>
     <file name="sv-u305-fr.png" crc="4214448573" ref="index"/>
     <file name="sv.png" crc="4141028301" ref="index"/>
-    <file name="u651-17.png" crc="282713369" ref="index"/>
-    <file name="u651-17-r.png" crc="432450229" ref="index"/>
-    <file name="u651-17-m.png" crc="432450229" ref="index"/>
-    <file name="u651-17-fs.png" crc="4219144062" ref="index"/>
     <file name="postgres.png" crc="360237392" ref="phone>index:tablet>index:index"/>
     <file name="sampleapp.svg" crc="451001867" ref="phone>index"/>
     <file name="stlogo.jpg" crc="3861804308" ref="phone>index:index"/>
@@ -95,7 +90,7 @@
     <file name="laptopscreen6.png" crc="4025446326" ref="index"/>
     <file name="olo-ieu134-fr.png" crc="349406468" ref="index"/>
     <file name="olo-u304-fr.png" crc="252362670" ref="index"/>
-    <file name="sampleapp.jpg" crc="244017200" ref="index"/>
+    <file name="softtrends-.net-core-buildpacks-for-heroku-favicon.ico" crc="4033810568" ref="index"/>
   </folder>
   <folder name="tablet">
     <folder name="css">
@@ -111,5 +106,5 @@
     </folder>
     <file name="index.html" crc="3947085507" seo="true" mt="1472239467861" redirect="true"/>
   </folder>
-  <file name="index.html" crc="517149645" seo="true" mt="1472240102753" redirect="true"/>
+  <file name="index.html" crc="525891436" seo="true" mt="1472320075300" redirect="true"/>
 </manifest>
