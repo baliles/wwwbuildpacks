@@ -1,8 +1,8 @@
-<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="dotnetbuildpacks.com" resolutions="1x" timestamp="1472328325365">
+<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="dotnetbuildpacks.com" resolutions="1x" timestamp="1472593008241">
   <folder name="css">
-    <file name="site_global.css" crc="3877927608"/>
-    <file name="index.css" crc="358579742" ref="index"/>
-    <file name="iefonts_index.css" crc="180449212" ref="index"/>
+    <file name="site_global.css" crc="4271844163"/>
+    <file name="index.css" crc="360945620" ref="index"/>
+    <file name="iefonts_index.css" crc="4206126715" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="169078940" ref="phone>index:tablet>index:index"/>
@@ -30,9 +30,7 @@
     <file name="appstore1.png" crc="4203174801" ref="phone>index:tablet>index"/>
     <file name="button_win1.png" crc="364785394" ref="phone>index:tablet>index"/>
     <file name="02-isometric-ipad-air-silver-mock-up.jpg" crc="3925297245" ref="phone>index:tablet>index:index"/>
-    <file name="item-active.png" crc="478339437" ref="phone>index:tablet>index:index"/>
-    <file name="iko2.png" crc="4290260858" ref="phone>index:tablet>index:index"/>
-    <file name="iko1.png" crc="204560192" ref="phone>index:tablet>index:index"/>
+    <file name="item-active.png" crc="478339437" ref="phone>index:tablet>index"/>
     <file name="pattern.png" crc="346032415" ref="phone>index:tablet>index"/>
     <file name="facebook white.png" crc="3963468138" ref="phone>index:tablet>index:index"/>
     <file name="google plus white.png" crc="485590092" ref="phone>index:tablet>index:index"/>
@@ -43,34 +41,22 @@
     <file name="u1250-17-r.png" crc="432450229" ref="phone>index"/>
     <file name="u1250-17-m.png" crc="432450229" ref="phone>index"/>
     <file name="u1250-17-fs.png" crc="4219144062" ref="phone>index"/>
-    <file name="olo-ieu810-fr.png" crc="349406468" ref="tablet>index"/>
+    <file name="olo-ieu810-fr.png" crc="349406468" ref="tablet>index:index"/>
     <file name="olo.png" crc="4151752701" ref="tablet>index:index"/>
     <file name="arrow427.png" crc="93892586" ref="tablet>index"/>
     <file name="arrow413.png" crc="4112990567" ref="tablet>index"/>
-    <file name="olo-u896-fr.png" crc="252362670" ref="tablet>index"/>
-    <file name="ik-6.png" crc="4172881509" ref="tablet>index:index"/>
-    <file name="ik-6-1.png" crc="4069569074" ref="tablet>index:index"/>
-    <file name="ik-3.png" crc="4221927500" ref="tablet>index:index"/>
-    <file name="ik-33.png" crc="4110892656" ref="tablet>index:index"/>
-    <file name="ik-4.png" crc="3925057625" ref="tablet>index:index"/>
-    <file name="ik-41.png" crc="442386075" ref="tablet>index:index"/>
-    <file name="ik-1.png" crc="437247194" ref="tablet>index:index"/>
-    <file name="ik-11.png" crc="84301602" ref="tablet>index:index"/>
-    <file name="ik-2.png" crc="4233147092" ref="tablet>index:index"/>
-    <file name="ik-22.png" crc="488780543" ref="tablet>index:index"/>
-    <file name="ik-5.png" crc="336135125" ref="tablet>index:index"/>
-    <file name="ik-51.png" crc="4060667955" ref="tablet>index:index"/>
+    <file name="olo-u896-fr.png" crc="252362670" ref="tablet>index:index"/>
     <file name="u1061-17.png" crc="282713369" ref="tablet>index"/>
     <file name="u1061-17-r.png" crc="432450229" ref="tablet>index"/>
     <file name="u1061-17-m.png" crc="432450229" ref="tablet>index"/>
     <file name="u1061-17-fs.png" crc="4219144062" ref="tablet>index"/>
     <file name="sv-u305-fr.png" crc="4214448573" ref="index"/>
     <file name="sv.png" crc="4141028301" ref="index"/>
-    <file name="postgres.png" crc="360237392" ref="phone>index:tablet>index:index"/>
+    <file name="postgres.png" crc="360237392" ref="phone>index:tablet>index"/>
     <file name="sampleapp.svg" crc="451001867" ref="phone>index"/>
     <file name="stlogo.jpg" crc="3861804308" ref="phone>index:index"/>
     <file name="button.svg" crc="4075981164" seo="true" ref="phone>index:index"/>
-    <file name="button_poster_.png" crc="4010220207" ref="phone>index:index"/>
+    <file name="button_poster_.png" crc="4010220207" ref="phone>index"/>
     <file name="sampleapp-m.png" crc="367525279" seo="true" ref="index"/>
     <file name="waves.jpg" crc="3841966914" ref="phone>index:tablet>index:index"/>
     <file name="sampleapp_poster_u2682.png" crc="4133943017" ref="phone>index"/>
@@ -88,22 +74,26 @@
     <file name="laptopscreen4.png" crc="152284312" ref="index"/>
     <file name="laptopscreen5.png" crc="4000807089" ref="index"/>
     <file name="laptopscreen6.png" crc="4025446326" ref="index"/>
-    <file name="olo-ieu134-fr.png" crc="349406468" ref="index"/>
-    <file name="olo-u304-fr.png" crc="252362670" ref="index"/>
+    <file name="bp-bullet.png" crc="247997980" ref="phone>index:tablet>index"/>
+    <file name="bp-bullet-u895-fr.png" crc="502420878" ref="tablet>index:index"/>
+    <file name="buildpackpg.png" crc="500532253" ref="index"/>
+    <file name="herokubutton.png" crc="3774112113" seo="true" ref="index"/>
+    <file name="buildpackmysql.png" crc="277401527" ref="index"/>
+    <file name="buildpackmssql.png" crc="4198673650" ref="index"/>
   </folder>
   <folder name="tablet">
     <folder name="css">
-      <file name="index.css" crc="4068637427" ref="tablet>index"/>
+      <file name="index.css" crc="123990550" ref="tablet>index"/>
       <file name="iefonts_index.css" crc="4187308992" ref="tablet>index"/>
     </folder>
-    <file name="index.html" crc="4062561772" seo="true" mt="1472239467860" redirect="true"/>
+    <file name="index.html" crc="450131154" seo="true" mt="1472592989887" redirect="true"/>
   </folder>
   <folder name="phone">
     <folder name="css">
-      <file name="index.css" crc="323940421" ref="phone>index"/>
+      <file name="index.css" crc="4185343111" ref="phone>index"/>
       <file name="iefonts_index.css" crc="220479491" ref="phone>index"/>
     </folder>
-    <file name="index.html" crc="3947085507" seo="true" mt="1472239467861" redirect="true"/>
+    <file name="index.html" crc="298310475" seo="true" mt="1472592989878" redirect="true"/>
   </folder>
-  <file name="index.html" crc="4193118902" seo="true" mt="1472328307094" redirect="true"/>
+  <file name="index.html" crc="4093494431" seo="true" mt="1472592989882" redirect="true"/>
 </manifest>
