@@ -15,7 +15,7 @@
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["jquery-1.8.3.min.js", "museutils.js", "museconfig.js", "jquery.watch.js", "jquery.musepolyfill.bgsize.js", "webpro.js", "musewpslideshow.js", "jquery.museoverlay.js", "touchswipe.js", "jquery.scrolleffects.js", "require.js", "jquery.musemenu.js", "index.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["jquery-1.8.3.min.js", "museutils.js", "museconfig.js", "jquery.musepolyfill.bgsize.js", "jquery.watch.js", "jquery.musemenu.js", "webpro.js", "musewpslideshow.js", "jquery.museoverlay.js", "touchswipe.js", "jquery.scrolleffects.js", "require.js", "index.css"], "outOfDate":[]};
 </script>
   
   <link media="only screen and (max-width: 370px)" rel="alternate" href="http://dotnetbuildpacks.com/phone/index.html"/>
@@ -23,7 +23,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <title>Softtrends .NET Core Buildpacks for Heroku</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=3877927608"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=3941916228" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=4097668680" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
   <link rel="stylesheet" type="text/css" href="css/iefonts_index.css?crc=376771170"/>
@@ -900,17 +900,17 @@ document.body.appendChild(_$elz.b.e); }
 			<div class='row rowTop'>
 				<div class='col-sm-12'>
 					<form class="form-horizontal" id="demoForm">
-					  <div class="form-group">
+					  <div class="form-group hide">
 					    <label for="apiToken" class="col-sm-3 control-label">Slack API Token:</label>
-					    <div class="col-sm-9">
+					    <div class="form-group hide">
 					      <input type=“hidden” class="form-control" id="apiToken" placeholder="apiToken" value="xoxb-73667521857-cNzIZ9rYbFrK6LxqupAxTcqn" />
 			
 					    </div>
 					  </div>
 
-					  <div class="form-group">
+					  <div class="form-group hide">
 					    <label for="channelId" class="col-sm-3 control-label">Slack Channel ID:</label>
-					    <div class="col-sm-9">
+					    <div class="form-group hide">
 					      <input type=“hidden” class="form-control" id="channelId" placeholder="Required"  value="C2594QESG">
 					     
 					      <div class="well channel-list" style="display:none;"></div>
@@ -948,16 +948,16 @@ document.body.appendChild(_$elz.b.e); }
 					    </div>
 					  </div>
 
-					  <div class="form-group">
+					  <div class="form-group hide">
 					    <label for="sysUser" class="col-sm-3 control-label">You'll be connected to:</label>
-					    <div class="col-sm-9">
+					    <div class="form-group hide">
 					      <input type=“hidden” class="form-control" id="sysUser" placeholder="Required" value="Softtrends Buildpacks Support Group">
 					    </div>
 					  </div>
 
-					  <div class="form-group">
+					  <div class="form-group hide">
 					    <label for="botUser" class="col-sm-3 control-label">Ignore this:</label>
-					    <div class="col-sm-9">
+					    <div class="form-group hide">
 					      <input type=“hidden” class="form-control" id="botUser" placeholder="Required" value="websitebot">
 					    </div>
 					  </div>

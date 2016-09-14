@@ -1,7 +1,7 @@
-<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="dotnetbuildpacks.com" resolutions="1x" timestamp="1473877635217">
+<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="dotnetbuildpacks.com" resolutions="1x" timestamp="1473878114234">
   <folder name="css">
     <file name="site_global.css" crc="3877927608"/>
-    <file name="index.css" crc="3941916228" ref="index"/>
+    <file name="index.css" crc="4097668680" ref="index"/>
     <file name="iefonts_index.css" crc="376771170" ref="index"/>
   </folder>
   <folder name="scripts">
@@ -41,11 +41,11 @@
     <file name="u1250-17-r.png" crc="432450229" ref="phone>index"/>
     <file name="u1250-17-m.png" crc="432450229" ref="phone>index"/>
     <file name="u1250-17-fs.png" crc="4219144062" ref="phone>index"/>
-    <file name="olo-ieu810-fr.png" crc="349406468" ref="tablet>index:index"/>
+    <file name="olo-ieu810-fr.png" crc="349406468" ref="tablet>index"/>
     <file name="olo.png" crc="4151752701" ref="tablet>index:index"/>
     <file name="arrow427.png" crc="93892586" ref="tablet>index"/>
     <file name="arrow413.png" crc="4112990567" ref="tablet>index"/>
-    <file name="olo-u896-fr.png" crc="252362670" ref="tablet>index:index"/>
+    <file name="olo-u896-fr.png" crc="252362670" ref="tablet>index"/>
     <file name="u1061-17.png" crc="282713369" ref="tablet>index"/>
     <file name="u1061-17-r.png" crc="432450229" ref="tablet>index"/>
     <file name="u1061-17-m.png" crc="432450229" ref="tablet>index"/>
@@ -73,13 +73,16 @@
     <file name="laptopscreen5.png" crc="4000807089" ref="index"/>
     <file name="laptopscreen6.png" crc="4025446326" ref="index"/>
     <file name="bp-bullet.png" crc="247997980" ref="phone>index:tablet>index"/>
-    <file name="bp-bullet-u895-fr.png" crc="502420878" ref="tablet>index:index"/>
+    <file name="bp-bullet-u895-fr.png" crc="502420878" ref="tablet>index"/>
     <file name="buildpackpg.png" crc="500532253" ref="index"/>
     <file name="herokubutton.png" crc="3774112113" seo="true" ref="index"/>
     <file name="buildpackmysql.png" crc="277401527" ref="index"/>
     <file name="buildpackmssql.png" crc="4198673650" ref="index"/>
     <file name="sampleappdeployprocess.png" crc="333205222" ref="index"/>
     <file name="workshops.jpg" crc="4029508299" ref="index"/>
+    <file name="olo-ieu134-fr.png" crc="349406468" ref="index"/>
+    <file name="olo-u304-fr.png" crc="252362670" ref="index"/>
+    <file name="bp-bullet-u303-fr.png" crc="502420878" ref="index"/>
   </folder>
   <folder name="tablet">
     <folder name="css">
@@ -95,5 +98,5 @@
     </folder>
     <file name="index.html" crc="3776855224" seo="true" mt="1473877295095" redirect="true"/>
   </folder>
-  <file name="index.html" crc="4150709159" seo="true" mt="1473877596212" redirect="true"/>
+  <file name="index.html" crc="259466222" seo="true" mt="1473878094075" redirect="true"/>
 </manifest>
