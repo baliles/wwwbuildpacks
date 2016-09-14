@@ -1,8 +1,8 @@
-<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="dotnetbuildpacks.com" resolutions="1x" timestamp="1473878114234">
+<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="dotnetbuildpacks.com" resolutions="1x" timestamp="1473878730901">
   <folder name="css">
     <file name="site_global.css" crc="3877927608"/>
-    <file name="index.css" crc="4097668680" ref="index"/>
-    <file name="iefonts_index.css" crc="376771170" ref="index"/>
+    <file name="index.css" crc="529288589" ref="index"/>
+    <file name="iefonts_index.css" crc="4263158864" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="169078940" ref="phone>index:tablet>index:index"/>
@@ -32,11 +32,11 @@
     <file name="02-isometric-ipad-air-silver-mock-up.jpg" crc="3925297245" ref="phone>index:tablet>index:index"/>
     <file name="item-active.png" crc="478339437" ref="phone>index:tablet>index"/>
     <file name="pattern.png" crc="346032415" ref="phone>index:tablet>index"/>
-    <file name="facebook white.png" crc="3963468138" ref="phone>index:tablet>index:index"/>
-    <file name="google plus white.png" crc="485590092" ref="phone>index:tablet>index:index"/>
-    <file name="youtube white.png" crc="137926063" ref="phone>index:tablet>index:index"/>
-    <file name="pinterest white.png" crc="116504283" ref="phone>index:tablet>index:index"/>
-    <file name="twitter white.png" crc="4155065756" ref="phone>index:tablet>index:index"/>
+    <file name="facebook white.png" crc="3963468138" ref="phone>index:tablet>index"/>
+    <file name="google plus white.png" crc="485590092" ref="phone>index:tablet>index"/>
+    <file name="youtube white.png" crc="137926063" ref="phone>index:tablet>index"/>
+    <file name="pinterest white.png" crc="116504283" ref="phone>index:tablet>index"/>
+    <file name="twitter white.png" crc="4155065756" ref="phone>index:tablet>index"/>
     <file name="u1250-17.png" crc="282713369" ref="phone>index"/>
     <file name="u1250-17-r.png" crc="432450229" ref="phone>index"/>
     <file name="u1250-17-m.png" crc="432450229" ref="phone>index"/>
@@ -98,5 +98,5 @@
     </folder>
     <file name="index.html" crc="3776855224" seo="true" mt="1473877295095" redirect="true"/>
   </folder>
-  <file name="index.html" crc="259466222" seo="true" mt="1473878094075" redirect="true"/>
+  <file name="index.html" crc="224653818" seo="true" mt="1473878715657" redirect="true"/>
 </manifest>
