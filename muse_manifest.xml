@@ -1,8 +1,8 @@
-<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="dotnetbuildpacks.com" resolutions="1x" timestamp="1472593008241">
+<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="dotnetbuildpacks.com" resolutions="1x" timestamp="1473877635217">
   <folder name="css">
-    <file name="site_global.css" crc="4271844163"/>
-    <file name="index.css" crc="360945620" ref="index"/>
-    <file name="iefonts_index.css" crc="4206126715" ref="index"/>
+    <file name="site_global.css" crc="3877927608"/>
+    <file name="index.css" crc="3941916228" ref="index"/>
+    <file name="iefonts_index.css" crc="376771170" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="169078940" ref="phone>index:tablet>index:index"/>
@@ -55,9 +55,8 @@
     <file name="postgres.png" crc="360237392" ref="phone>index:tablet>index"/>
     <file name="sampleapp.svg" crc="451001867" ref="phone>index"/>
     <file name="stlogo.jpg" crc="3861804308" ref="phone>index:index"/>
-    <file name="button.svg" crc="4075981164" seo="true" ref="phone>index:index"/>
+    <file name="button.svg" crc="4075981164" seo="true" ref="phone>index"/>
     <file name="button_poster_.png" crc="4010220207" ref="phone>index"/>
-    <file name="sampleapp-m.png" crc="367525279" seo="true" ref="index"/>
     <file name="waves.jpg" crc="3841966914" ref="phone>index:tablet>index:index"/>
     <file name="sampleapp_poster_u2682.png" crc="4133943017" ref="phone>index"/>
     <file name="waves-u1164-fr.jpg" crc="4274326997" ref="phone>index"/>
@@ -65,7 +64,6 @@
     <file name="laptop.png" crc="136786109" ref="tablet>index:index"/>
     <file name="waves-u907-fr.jpg" crc="3830183294" ref="tablet>index"/>
     <file name="diamondbg1-sm.jpg" crc="4112595773" ref="index"/>
-    <file name="sampleappdeployprocess-smw.jpg" crc="3852284938" ref="index"/>
     <file name="laptopscreen1.png" crc="269758215" ref="index"/>
     <file name="waves-ieu711-fr.png" crc="498494707" ref="index"/>
     <file name="laptopscreen1-u499-fr.png" crc="22443369" ref="index"/>
@@ -80,20 +78,22 @@
     <file name="herokubutton.png" crc="3774112113" seo="true" ref="index"/>
     <file name="buildpackmysql.png" crc="277401527" ref="index"/>
     <file name="buildpackmssql.png" crc="4198673650" ref="index"/>
+    <file name="sampleappdeployprocess.png" crc="333205222" ref="index"/>
+    <file name="workshops.jpg" crc="4029508299" ref="index"/>
   </folder>
   <folder name="tablet">
     <folder name="css">
-      <file name="index.css" crc="123990550" ref="tablet>index"/>
+      <file name="index.css" crc="475175611" ref="tablet>index"/>
       <file name="iefonts_index.css" crc="4187308992" ref="tablet>index"/>
     </folder>
-    <file name="index.html" crc="450131154" seo="true" mt="1472592989887" redirect="true"/>
+    <file name="index.html" crc="4165355530" seo="true" mt="1473877295102" redirect="true"/>
   </folder>
   <folder name="phone">
     <folder name="css">
-      <file name="index.css" crc="4185343111" ref="phone>index"/>
+      <file name="index.css" crc="4096313936" ref="phone>index"/>
       <file name="iefonts_index.css" crc="220479491" ref="phone>index"/>
     </folder>
-    <file name="index.html" crc="298310475" seo="true" mt="1472592989878" redirect="true"/>
+    <file name="index.html" crc="3776855224" seo="true" mt="1473877295095" redirect="true"/>
   </folder>
-  <file name="index.html" crc="4093494431" seo="true" mt="1472592989882" redirect="true"/>
+  <file name="index.html" crc="4150709159" seo="true" mt="1473877596212" redirect="true"/>
 </manifest>

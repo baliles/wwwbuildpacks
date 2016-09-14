@@ -17,8 +17,8 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <link rel="canonical" href="http://dotnetbuildpacks.com/index.html"/>
   <title>App</title>
   <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="../css/site_global.css?crc=4271844163"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=4185343111" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="../css/site_global.css?crc=3877927608"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=4096313936" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
   <link rel="stylesheet" type="text/css" href="css/iefonts_index.css?crc=220479491"/>
@@ -29,7 +29,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 </script>
   <!-- JS includes -->
   <script type="text/javascript">
-   document.write('\x3Cscript src="' + (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//webfonts.creativecloud.com/raleway:n2,n4,n3,n7:all;dosis:n4:all.js" type="text/javascript">\x3C/script>');
+   document.write('\x3Cscript src="' + (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//webfonts.creativecloud.com/dosis:n4:all;raleway:n2,n4,n3,n7:all.js" type="text/javascript">\x3C/script>');
 </script>
     <!--custom head HTML-->
   <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
@@ -524,9 +524,9 @@ Muse.Utils.fullPage('#page');/* 100% height page */
 Muse.Utils.initWidget('#pamphletu1170', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'click',deactivationEvent:'',autoPlay:false,displayInterval:3000,transitionStyle:'horizontal',transitionDuration:500,hideAllContentsFirst:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false}); });/* #pamphletu1170 */
 Muse.Utils.initWidget('#pamphletu1263', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'click',deactivationEvent:'',autoPlay:false,displayInterval:3000,transitionStyle:'horizontal',transitionDuration:500,hideAllContentsFirst:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false}); });/* #pamphletu1263 */
 Muse.Utils.initWidget('#widgetu1240', ['#bp_infinity'], function(elem) { return new WebPro.Widget.Form(elem, {validationEvent:'submit',errorStateSensitivity:'high',fieldWrapperClass:'fld-grp',formSubmittedClass:'frm-sub-st',formErrorClass:'frm-subm-err-st',formDeliveredClass:'frm-subm-ok-st',notEmptyClass:'non-empty-st',focusClass:'focus-st',invalidClass:'fld-err-st',requiredClass:'fld-err-st',ajaxSubmit:true}); });/* #widgetu1240 */
-$('#u1139-bw').registerPositionScrollEffect([{"in":[-Infinity,0],"speed":[null,0]},{"in":[0,Infinity],"speed":[null,0]}]);/* scroll effect */
-$('#u1140').registerPositionScrollEffect([{"in":[-Infinity,0.03],"speed":[0,0]},{"in":[0.03,Infinity],"speed":[0,0]}]);/* scroll effect */
-$('#u1260-bw').registerPositionScrollEffect([{"in":[-Infinity,5814.25],"speed":[null,0.8]},{"in":[5814.25,Infinity],"speed":[null,0.5]}]);/* scroll effect */
+$('#u1139-bw').registerPositionScrollEffect([{"speed":[null,0],"in":[-Infinity,0]},{"speed":[null,0],"in":[0,Infinity]}]);/* scroll effect */
+$('#u1140').registerPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,0.03]},{"speed":[0,0],"in":[0.03,Infinity]}]);/* scroll effect */
+$('#u1260-bw').registerPositionScrollEffect([{"speed":[null,0.8],"in":[-Infinity,5814.25]},{"speed":[null,0.5],"in":[5814.25,Infinity]}]);/* scroll effect */
 Muse.Utils.showWidgetsWhenReady();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 }catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};
