@@ -1,8 +1,8 @@
-<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="dotnetbuildpacks.com" resolutions="1x" timestamp="1473880991962">
+<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="dotnetbuildpacks.com" resolutions="1x" timestamp="1474990467417">
   <folder name="css">
-    <file name="site_global.css" crc="3877927608"/>
-    <file name="index.css" crc="3785338475" ref="index"/>
-    <file name="iefonts_index.css" crc="4263158864" ref="index"/>
+    <file name="site_global.css" crc="4271844163"/>
+    <file name="index.css" crc="3785148268" ref="index"/>
+    <file name="iefonts_index.css" crc="4015041445" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="169078940" ref="phone>index:tablet>index:index"/>
@@ -74,15 +74,14 @@
     <file name="laptopscreen6.png" crc="4025446326" ref="index"/>
     <file name="bp-bullet.png" crc="247997980" ref="phone>index:tablet>index"/>
     <file name="bp-bullet-u895-fr.png" crc="502420878" ref="tablet>index"/>
-    <file name="buildpackpg.png" crc="500532253" ref="index"/>
     <file name="herokubutton.png" crc="3774112113" seo="true" ref="index"/>
-    <file name="buildpackmysql.png" crc="277401527" ref="index"/>
-    <file name="buildpackmssql.png" crc="4198673650" ref="index"/>
     <file name="sampleappdeployprocess.png" crc="333205222" ref="index"/>
     <file name="workshops.jpg" crc="4029508299" ref="index"/>
-    <file name="olo-ieu134-fr.png" crc="349406468" ref="index"/>
     <file name="olo-u304-fr.png" crc="252362670" ref="index"/>
     <file name="bp-bullet-u303-fr.png" crc="502420878" ref="index"/>
+    <file name="pgbpicon.png" crc="4148808818" ref="index"/>
+    <file name="mysqlbpicon.png" crc="523450970" ref="index"/>
+    <file name="mainbpicon.png" crc="167356038" ref="index"/>
   </folder>
   <folder name="tablet">
     <folder name="css">
@@ -98,5 +97,5 @@
     </folder>
     <file name="index.html" crc="3776855224" seo="true" mt="1473877295095" redirect="true"/>
   </folder>
-  <file name="index.html" crc="329046936" seo="true" mt="1473880975456" redirect="true"/>
+  <file name="index.html" crc="4123685196" seo="true" mt="1474990462645" redirect="true"/>
 </manifest>
