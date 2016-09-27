@@ -1,8 +1,8 @@
-<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="dotnetbuildpacks.com" resolutions="1x" timestamp="1474999096384">
+<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="dotnetbuildpacks.com" resolutions="1x" timestamp="1475001090971">
   <folder name="css">
-    <file name="site_global.css" crc="3769335719"/>
-    <file name="index.css" crc="255192780" ref="index"/>
-    <file name="iefonts_index.css" crc="137254770" ref="index"/>
+    <file name="site_global.css" crc="491976865"/>
+    <file name="index.css" crc="3939486060" ref="index"/>
+    <file name="iefonts_index.css" crc="26737315" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="169078940" ref="phone>index:tablet>index:index"/>
@@ -30,7 +30,6 @@
     <file name="stlogo.jpg" crc="3861804308" ref="phone>index:index"/>
     <file name="waves.jpg" crc="3841966914" ref="phone>index:tablet>index:index"/>
     <file name="sampleapp.svg" crc="451001867" ref="phone>index"/>
-    <file name="sampleapp_poster_u2682.png" crc="4133943017" ref="phone>index"/>
     <file name="appstore1.png" crc="4203174801" ref="phone>index:tablet>index"/>
     <file name="button_win1.png" crc="364785394" ref="phone>index:tablet>index"/>
     <file name="button.svg" crc="4075981164" seo="true" ref="phone>index"/>
@@ -57,8 +56,8 @@
     <file name="arrow427.png" crc="93892586" ref="tablet>index"/>
     <file name="arrow413.png" crc="4112990567" ref="tablet>index"/>
     <file name="waves-u907-fr.jpg" crc="3830183294" ref="tablet>index"/>
-    <file name="olo-u896-fr.png" crc="252362670" ref="tablet>index"/>
-    <file name="bp-bullet-u895-fr.png" crc="502420878" ref="tablet>index"/>
+    <file name="olo-u896-fr.png" crc="252362670" ref="tablet>index:index"/>
+    <file name="bp-bullet-u895-fr.png" crc="502420878" ref="tablet>index:index"/>
     <file name="u1061-17.png" crc="282713369" ref="tablet>index"/>
     <file name="u1061-17-r.png" crc="432450229" ref="tablet>index"/>
     <file name="u1061-17-m.png" crc="432450229" ref="tablet>index"/>
@@ -79,22 +78,21 @@
     <file name="herokubutton.png" crc="3774112113" seo="true" ref="index"/>
     <file name="mysqlbpicon.png" crc="523450970" ref="index"/>
     <file name="mainbpicon.png" crc="4178241038" ref="index"/>
-    <file name="olo-u304-fr.png" crc="252362670" ref="index"/>
-    <file name="bp-bullet-u303-fr.png" crc="502420878" ref="index"/>
+    <file name="sampleapp_poster_u4051.png" crc="287300691" ref="phone>index"/>
   </folder>
   <folder name="tablet">
     <folder name="css">
-      <file name="index.css" crc="475175611" ref="tablet>index"/>
+      <file name="index.css" crc="4102763030" ref="tablet>index"/>
       <file name="iefonts_index.css" crc="4187308992" ref="tablet>index"/>
     </folder>
-    <file name="index.html" crc="4115139142" seo="true" mt="1474992759303" redirect="true"/>
+    <file name="index.html" crc="268289240" seo="true" mt="1475001076395" redirect="true"/>
   </folder>
   <folder name="phone">
     <folder name="css">
-      <file name="index.css" crc="4096313936" ref="phone>index"/>
+      <file name="index.css" crc="103623599" ref="phone>index"/>
       <file name="iefonts_index.css" crc="220479491" ref="phone>index"/>
     </folder>
-    <file name="index.html" crc="4160464998" seo="true" mt="1474992759305" redirect="true"/>
+    <file name="index.html" crc="425992710" seo="true" mt="1475001076391" redirect="true"/>
   </folder>
-  <file name="index.html" crc="4014476782" seo="true" mt="1474999078283" redirect="true"/>
+  <file name="index.html" crc="373651537" seo="true" mt="1475001037937" redirect="true"/>
 </manifest>
