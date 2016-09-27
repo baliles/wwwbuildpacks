@@ -1,8 +1,8 @@
-<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="dotnetbuildpacks.com" resolutions="1x" timestamp="1474993624886">
+<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="dotnetbuildpacks.com" resolutions="1x" timestamp="1474999096384">
   <folder name="css">
-    <file name="site_global.css" crc="3848163782"/>
-    <file name="index.css" crc="164208929" ref="index"/>
-    <file name="iefonts_index.css" crc="132002397" ref="index"/>
+    <file name="site_global.css" crc="3769335719"/>
+    <file name="index.css" crc="255192780" ref="index"/>
+    <file name="iefonts_index.css" crc="137254770" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="169078940" ref="phone>index:tablet>index:index"/>
@@ -27,10 +27,19 @@
     <file name="html5shiv.js" crc="4241844378" ref="tablet>index:index"/>
   </folder>
   <folder name="images">
+    <file name="stlogo.jpg" crc="3861804308" ref="phone>index:index"/>
+    <file name="waves.jpg" crc="3841966914" ref="phone>index:tablet>index:index"/>
+    <file name="sampleapp.svg" crc="451001867" ref="phone>index"/>
+    <file name="sampleapp_poster_u2682.png" crc="4133943017" ref="phone>index"/>
     <file name="appstore1.png" crc="4203174801" ref="phone>index:tablet>index"/>
     <file name="button_win1.png" crc="364785394" ref="phone>index:tablet>index"/>
-    <file name="02-isometric-ipad-air-silver-mock-up.jpg" crc="3925297245" ref="phone>index:tablet>index:index"/>
+    <file name="button.svg" crc="4075981164" seo="true" ref="phone>index"/>
+    <file name="button_poster_.png" crc="4010220207" ref="phone>index"/>
+    <file name="waves-u1164-fr.jpg" crc="4274326997" ref="phone>index"/>
+    <file name="02-isometric-ipad-air-silver-mock-up.jpg" crc="3925297245" ref="phone>index:tablet>index"/>
     <file name="item-active.png" crc="478339437" ref="phone>index:tablet>index"/>
+    <file name="postgres.png" crc="360237392" ref="phone>index:tablet>index"/>
+    <file name="bp-bullet.png" crc="247997980" ref="phone>index:tablet>index"/>
     <file name="pattern.png" crc="346032415" ref="phone>index:tablet>index"/>
     <file name="facebook white.png" crc="3963468138" ref="phone>index:tablet>index"/>
     <file name="google plus white.png" crc="485590092" ref="phone>index:tablet>index"/>
@@ -43,42 +52,35 @@
     <file name="u1250-17-fs.png" crc="4219144062" ref="phone>index"/>
     <file name="olo-ieu810-fr.png" crc="349406468" ref="tablet>index"/>
     <file name="olo.png" crc="4151752701" ref="tablet>index:index"/>
+    <file name="waves-u837-fr.jpg" crc="3869260099" ref="tablet>index"/>
+    <file name="laptop.png" crc="136786109" ref="tablet>index:index"/>
     <file name="arrow427.png" crc="93892586" ref="tablet>index"/>
     <file name="arrow413.png" crc="4112990567" ref="tablet>index"/>
-    <file name="olo-u896-fr.png" crc="252362670" ref="tablet>index:index"/>
+    <file name="waves-u907-fr.jpg" crc="3830183294" ref="tablet>index"/>
+    <file name="olo-u896-fr.png" crc="252362670" ref="tablet>index"/>
+    <file name="bp-bullet-u895-fr.png" crc="502420878" ref="tablet>index"/>
     <file name="u1061-17.png" crc="282713369" ref="tablet>index"/>
     <file name="u1061-17-r.png" crc="432450229" ref="tablet>index"/>
     <file name="u1061-17-m.png" crc="432450229" ref="tablet>index"/>
     <file name="u1061-17-fs.png" crc="4219144062" ref="tablet>index"/>
-    <file name="sv-u305-fr.png" crc="4214448573" ref="index"/>
-    <file name="sv.png" crc="4141028301" ref="index"/>
-    <file name="postgres.png" crc="360237392" ref="phone>index:tablet>index"/>
-    <file name="sampleapp.svg" crc="451001867" ref="phone>index"/>
-    <file name="stlogo.jpg" crc="3861804308" ref="phone>index:index"/>
-    <file name="button.svg" crc="4075981164" seo="true" ref="phone>index"/>
-    <file name="button_poster_.png" crc="4010220207" ref="phone>index"/>
-    <file name="waves.jpg" crc="3841966914" ref="phone>index:tablet>index:index"/>
-    <file name="sampleapp_poster_u2682.png" crc="4133943017" ref="phone>index"/>
-    <file name="waves-u1164-fr.jpg" crc="4274326997" ref="phone>index"/>
-    <file name="waves-u837-fr.jpg" crc="3869260099" ref="tablet>index"/>
-    <file name="laptop.png" crc="136786109" ref="tablet>index:index"/>
-    <file name="waves-u907-fr.jpg" crc="3830183294" ref="tablet>index"/>
-    <file name="diamondbg1-sm.jpg" crc="4112595773" ref="index"/>
     <file name="laptopscreen1.png" crc="269758215" ref="index"/>
-    <file name="laptopscreen1-u499-fr.png" crc="22443369" ref="index"/>
     <file name="laptopscreen2.png" crc="4219207044" ref="index"/>
     <file name="laptopscreen3.png" crc="323108862" ref="index"/>
     <file name="laptopscreen4.png" crc="152284312" ref="index"/>
     <file name="laptopscreen5.png" crc="4000807089" ref="index"/>
     <file name="laptopscreen6.png" crc="4025446326" ref="index"/>
-    <file name="bp-bullet.png" crc="247997980" ref="phone>index:tablet>index"/>
-    <file name="bp-bullet-u895-fr.png" crc="502420878" ref="tablet>index:index"/>
-    <file name="herokubutton.png" crc="3774112113" seo="true" ref="index"/>
+    <file name="sv-u305-fr.png" crc="4214448573" ref="index"/>
+    <file name="sv.png" crc="4141028301" ref="index"/>
     <file name="sampleappdeployprocess.png" crc="333205222" ref="index"/>
     <file name="workshops.jpg" crc="4029508299" ref="index"/>
+    <file name="laptopscreen1-u499-fr.png" crc="22443369" ref="index"/>
+    <file name="diamondbg1-sm.jpg" crc="4112595773" ref="index"/>
     <file name="pgbpicon.png" crc="4148808818" ref="index"/>
+    <file name="herokubutton.png" crc="3774112113" seo="true" ref="index"/>
     <file name="mysqlbpicon.png" crc="523450970" ref="index"/>
-    <file name="mainbpicon.png" crc="167356038" ref="index"/>
+    <file name="mainbpicon.png" crc="4178241038" ref="index"/>
+    <file name="olo-u304-fr.png" crc="252362670" ref="index"/>
+    <file name="bp-bullet-u303-fr.png" crc="502420878" ref="index"/>
   </folder>
   <folder name="tablet">
     <folder name="css">
@@ -94,5 +96,5 @@
     </folder>
     <file name="index.html" crc="4160464998" seo="true" mt="1474992759305" redirect="true"/>
   </folder>
-  <file name="index.html" crc="175852205" seo="true" mt="1474993595264" redirect="true"/>
+  <file name="index.html" crc="4014476782" seo="true" mt="1474999078283" redirect="true"/>
 </manifest>
