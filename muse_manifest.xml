@@ -1,4 +1,4 @@
-<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="dotnetbuildpacks.com" resolutions="1x" timestamp="1475073205038">
+<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="dotnetbuildpacks.com" resolutions="1x" timestamp="1475073443554">
   <folder name="css">
     <file name="site_global.css" crc="491976865"/>
     <file name="index.css" crc="263753993" ref="index"/>
@@ -96,5 +96,5 @@
     </folder>
     <file name="index.html" crc="425992710" seo="true" mt="1475001076391" redirect="true"/>
   </folder>
-  <file name="index.html" crc="4125107701" seo="true" mt="1475073163494" redirect="true"/>
+  <file name="index.html" crc="4125107701" seo="true" mt="1475073427593" redirect="true"/>
 </manifest>
