@@ -1,7 +1,7 @@
-<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="dotnetbuildpacks.com" resolutions="1x" timestamp="1475073980065">
+<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="dotnetbuildpacks.com" resolutions="1x" timestamp="1475098934624">
   <folder name="css">
     <file name="site_global.css" crc="491976865"/>
-    <file name="index.css" crc="4251023646" ref="index"/>
+    <file name="index.css" crc="4116858768" ref="index"/>
     <file name="iefonts_index.css" crc="26737315" ref="index"/>
   </folder>
   <folder name="scripts">
@@ -80,20 +80,21 @@
     <file name="sampleapp_poster_u4051.png" crc="287300691" ref="phone>index"/>
     <file name="olo-u304-fr.png" crc="252362670" ref="index"/>
     <file name="bp-bullet-u303-fr.png" crc="502420878" ref="index"/>
+    <file name="workshops.jpg" crc="4029508299" seo="true" ref="index"/>
   </folder>
   <folder name="tablet">
     <folder name="css">
       <file name="index.css" crc="4102763030" ref="tablet>index"/>
       <file name="iefonts_index.css" crc="4187308992" ref="tablet>index"/>
     </folder>
-    <file name="index.html" crc="268289240" seo="true" mt="1475001076395" redirect="true"/>
+    <file name="index.html" crc="268289240" seo="true" mt="1475098676739" redirect="true"/>
   </folder>
   <folder name="phone">
     <folder name="css">
       <file name="index.css" crc="103623599" ref="phone>index"/>
       <file name="iefonts_index.css" crc="220479491" ref="phone>index"/>
     </folder>
-    <file name="index.html" crc="425992710" seo="true" mt="1475001076391" redirect="true"/>
+    <file name="index.html" crc="425992710" seo="true" mt="1475098676745" redirect="true"/>
   </folder>
-  <file name="index.html" crc="353085036" seo="true" mt="1475073932171" redirect="true"/>
+  <file name="index.html" crc="453929107" seo="true" mt="1475098914582" redirect="true"/>
 </manifest>
