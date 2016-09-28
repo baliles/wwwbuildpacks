@@ -1,8 +1,8 @@
-<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="dotnetbuildpacks.com" resolutions="1x" timestamp="1475098934624">
+<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="dotnetbuildpacks.com" resolutions="1x" timestamp="1475099324544">
   <folder name="css">
     <file name="site_global.css" crc="491976865"/>
-    <file name="index.css" crc="4116858768" ref="index"/>
-    <file name="iefonts_index.css" crc="26737315" ref="index"/>
+    <file name="index.css" crc="3980639405" ref="index"/>
+    <file name="iefonts_index.css" crc="506582844" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="169078940" ref="phone>index:tablet>index:index"/>
@@ -96,5 +96,5 @@
     </folder>
     <file name="index.html" crc="425992710" seo="true" mt="1475098676745" redirect="true"/>
   </folder>
-  <file name="index.html" crc="453929107" seo="true" mt="1475098914582" redirect="true"/>
+  <file name="index.html" crc="229525188" seo="true" mt="1475099236141" redirect="true"/>
 </manifest>
