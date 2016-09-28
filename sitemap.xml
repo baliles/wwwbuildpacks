@@ -9,7 +9,7 @@
     <xhtml:link rel="alternate" media="only screen and (max-width: 960px)" href="http://dotnetbuildpacks.com/tablet/index.html"/>
   </url>
   <url>
-    <loc>http://dotnetbuildpacks.com/images/sampleappdeployprocess.png</loc>
+    <loc>http://dotnetbuildpacks.com/images/herokubutton.png</loc>
     <lastmod>2016-09-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -22,12 +22,6 @@
   </url>
   <url>
     <loc>http://dotnetbuildpacks.com/images/workshops.jpg</loc>
-    <lastmod>2016-09-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://dotnetbuildpacks.com/images/herokubutton.png</loc>
     <lastmod>2016-09-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
