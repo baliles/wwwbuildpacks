@@ -1,7 +1,7 @@
-<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="dotnetbuildpacks.com" resolutions="1x" timestamp="1475073443554">
+<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="dotnetbuildpacks.com" resolutions="1x" timestamp="1475073980065">
   <folder name="css">
     <file name="site_global.css" crc="491976865"/>
-    <file name="index.css" crc="263753993" ref="index"/>
+    <file name="index.css" crc="4251023646" ref="index"/>
     <file name="iefonts_index.css" crc="26737315" ref="index"/>
   </folder>
   <folder name="scripts">
@@ -71,7 +71,6 @@
     <file name="sv-u305-fr.png" crc="4214448573" ref="index"/>
     <file name="sv.png" crc="4141028301" ref="index"/>
     <file name="sampleappdeployprocess.png" crc="333205222" ref="index" seo="true"/>
-    <file name="workshops.jpg" crc="4029508299" ref="index"/>
     <file name="laptopscreen1-u499-fr.png" crc="22443369" ref="index"/>
     <file name="diamondbg1-sm.jpg" crc="4112595773" ref="index"/>
     <file name="pgbpicon.png" crc="4148808818" ref="index"/>
@@ -96,5 +95,5 @@
     </folder>
     <file name="index.html" crc="425992710" seo="true" mt="1475001076391" redirect="true"/>
   </folder>
-  <file name="index.html" crc="4125107701" seo="true" mt="1475073427593" redirect="true"/>
+  <file name="index.html" crc="353085036" seo="true" mt="1475073932171" redirect="true"/>
 </manifest>
